@@ -1,3 +1,4 @@
 compas>=2.13
 rhino-stubs
 ruff>=0.5
+compas_viewer
