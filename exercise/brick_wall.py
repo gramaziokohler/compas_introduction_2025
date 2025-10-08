@@ -27,19 +27,3 @@ class Brick:
     def rotate(self, rotation_in_degrees):
         self.rotation = rotation_in_degrees
 
-
-point = Point(0, 1, 0)
-b1 = Brick(7, 4, 1, point)
-
-rot = 23
-b1.rotate(rot)
-print(b1)
-
-a = b1.draw()
-print(a)
-
-from compas_viewer import Viewer
-viewer = Viewer()
-viewer.scene.add(a)
-viewer.show()
-
